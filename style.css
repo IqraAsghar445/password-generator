@@ -1,0 +1,98 @@
+body {
+    background-image: url('./images/background-6228126_1280.jpg');
+    background-size: cover;
+    background-color: #719ea0;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0 10px;
+}
+
+#heading {
+    margin-bottom: 30px;
+    text-align: center;
+   
+    color: #0d2b3d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    text-shadow: 1px 1px 2px rgba(32, 56, 112, 0.1);
+}
+
+.card {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #dce0e1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.card label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.card .form-group {
+    margin-bottom: 20px;
+}
+
+.card .form-check-label {
+    margin-left: 5px;
+    color: #555;
+}
+
+#generate {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5f92af;
+
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#generate:hover {
+    background-color: #0d2b3d;
+    transform: scale(1.05);
+}
+
+#password {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+    word-wrap: break-word;
+    font-family: 'Courier New', Courier, monospace;
+    animation: fade-in 0.5s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        padding: 15px;
+    }
+}
